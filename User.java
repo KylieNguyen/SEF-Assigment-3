@@ -3,7 +3,7 @@
 
 import java.util.Date;
 
-public class User {
+public abstract class User {
     
     //declare variables for User class
     private int userID;
