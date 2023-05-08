@@ -4,6 +4,7 @@ import java.util.Date;
 
 public class TrainingCourse {
     
+    //declare variables for training course
     private String courseID;
     private String title;
     private String trainingType;
@@ -16,8 +17,10 @@ public class TrainingCourse {
     private Date startDate;
     private Date endDate;
 
+    //constructor
     public TrainingCourse(String courseID, String title, String trainingType, Date learningPeriod, String trainer, String category, Double courseFee, int seatsAvailable, int duration, Date startDate, Date endDate) {}
 
+    //getter methods for training course
     public String getCourseID() {return "";}
 
     public String getTitle() {return "";}
