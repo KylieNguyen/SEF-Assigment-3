@@ -16,10 +16,10 @@ public abstract class User {
     private String address; 
     private String bankAccount;
     private int contactNumber;
-    private int emergancyContact;
+    private int emergencyContact;
 
     //User constructor
-    public User(int uID, String u, String p, String e, Date d, String uT, String fN, String a, String bA, int cN, int eC) {}
+    public User(int userID, String username, String password, String email, Date dateOfBirth, String userType, String fullName, String address, String bankAccount, int contactNumber, int emergencyContact) {}
 
     //getter methods
     public int getUserID() {return 0;}
